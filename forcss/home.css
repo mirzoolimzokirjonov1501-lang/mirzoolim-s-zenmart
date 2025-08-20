@@ -1,0 +1,82 @@
+table {
+  margin: 30px;
+  width: 90%;
+  height: 100px;
+  background-color: rgb(86, 173, 210);
+  border-collapse: collapse;
+  border-radius: 10px;
+  border-style: hidden;
+  box-shadow: 0 0 0 1px #9f5151;
+  color: rgb(17, 156, 49);
+  overflow: hidden;
+}
+
+th,
+td {
+  border: 1px solid rgb(44, 191, 149);
+}
+.fruits li:hover {
+  color: rgb(136, 22, 11);
+}
+.fruits li {
+  list-style-type: none;
+}
+
+.td_fruits:hover {
+  color: rgb(91, 20, 115);
+}
+
+.thead1:hover {
+  background-color: rgb(21, 20, 62);
+}
+.thead2:hover {
+  background-color: aquamarine;
+}
+
+.tbody tr:nth-child(odd) {
+  background-color: rgb(216, 225, 236);
+}
+.tbody tr:nth-child(even) {
+  background-color: rgb(212, 218, 223);
+}
+.tbody tr:hover {
+  background-color: rgb(74, 210, 225);
+}
+.fikr,
+input {
+  border-radius: 5px;
+  width: 20%;
+  padding: 5px;
+  margin-left: 10px;
+}
+input:hover {
+  background-color: aqua;
+}
+
+button {
+  margin: 10px;
+  padding: 5px;
+  width: 10%;
+  background-color: rgb(70, 36, 117);
+  color: rgb(241, 241, 247);
+  border-radius: 20px;
+  box-shadow: block;
+}
+button:hover {
+  background-color: rgb(138, 205, 105);
+  position: relative;
+}
+
+button:active {
+  background-color: blueviolet;
+}
+a {
+  text-decoration: none;
+}
+a:hover {
+  color: rgb(210, 149, 143);
+}
+b,
+span {
+  margin-left: 30px;
+}

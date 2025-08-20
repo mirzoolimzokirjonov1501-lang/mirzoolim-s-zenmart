@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Project</title>
+    <link rel="stylesheet" href="project.css" />
+  </head>
+  <body>
+    <div class="main_conteiner">
+      <h1 class="title_1">Welcome</h1>
+      <div class="pcontainer">
+        <p>You can leave your information on our site</p>
+        <p>
+          Visit <a href="/forproject.html"> Example Website</a> for more
+          information.
+        </p>
+      </div>
+      <h2 class="title_2">Our users</h2>
+      <table id="table" border="1">
+        <tr>
+          <th>Name</th>
+          <th>Email</th>
+          <th>Gender</th>
+        </tr>
+        <tr>
+          <td>Mirzo</td>
+          <td>miroff@naver.com</td>
+          <td>Male</td>
+        </tr>
+        <tr>
+          <td>Mirzohid</td>
+          <td>mirzohid@gmail.com</td>
+          <td>Male</td>
+        </tr>
+        <tr>
+          <td>Ozoda</td>
+          <td>ozoda123@gmail.com</td>
+          <td>Female</td>
+        </tr>
+      </table>
+      <h2>Please full fill all input</h2>
+      <form action="http://85.31.232.70:3007/post" method="post">
+        <label>
+          Name:
+          <input type="text" name="username" required />
+        </label>
+        <br />
+        <br />
+        <label>
+          Email:
+          <input type="email" name="email" required />
+        </label>
+        <br />
+        <br />
+        <label>
+          Password:
+          <input type="password" name="password" required />
+        </label>
+        <br />
+        <br />
+        Gender:
+        <label>
+          Male
+          <input type="radio" name="gender" value="male" />
+        </label>
+        <label>
+          Female
+          <input type="radio" name="gender" value="female" />
+        </label>
+        <br />
+        <br />
+        Country:
+        <select name="country" id="country" required>
+          <option value="uz" name="country">Uzbekistan</option>
+          <option value="kr" name="country">Korea</option>
+          <option value="usa" name="country">America</option>
+        </select>
+        <br />
+        <br />
+        <button type="submit">Submit</button>
+      </form>
+    </div>
+  </body>
+</html>

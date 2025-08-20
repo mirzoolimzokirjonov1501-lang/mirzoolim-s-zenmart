@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Practice</title>
+    <link rel="stylesheet" href="../forcss/forme.css" />
+  </head>
+  <body>
+    <form action="post" id="form">
+      <div class="form-control">
+        <label for="name" id="label-name">Name</label>
+        <input type="text" id="name" placeholder="Enter your name" />
+      </div>
+      <div class="form-control">
+        <label>
+          Email
+          <input type="text" name="email" id="email" />
+        </label>
+      </div>
+      <div class="form-control">
+        <label>
+          Age
+          <input type="number" name="age" id="age" />
+        </label>
+      </div>
+      <div class="form-control">
+        <label>
+          Which option best describes you
+          <select name="options">
+            <option value="student">Student</option>
+            <option value="internet">Internet</option>
+            <option value="professional">Professional</option>
+            <option value="other">Other</option>
+          </select>
+        </label>
+      </div>
+      <div class="form-control">
+        <span>Would you recommended GeeksforGeeks to a friend?</span>
+        <br />
+        <br />
+        <label>
+          Yes
+          <input type="radio" name="yes" value="yes" />
+        </label>
+        <br />
+        <br />
+        <label>
+          No
+          <input type="radio" name="no" value="no" />
+        </label>
+        <br />
+        <br />
+        <label>
+          Maybe
+          <input type="radio" name="maybe" value="maybe" />
+        </label>
+      </div>
+      <div class="form-control">
+        <label
+          >Language and Formworks known
+          <small>(Check all that apply)</small></label
+        >
+        <label>
+          C
+          <input type="checkbox" name="c" value="c" />
+        </label>
+        <label
+          >C++
+          <input type="checkbox" name="c++" value="c++" />
+        </label>
+        <br />
+        <label
+          >Java
+          <input type="checkbox" name="java" value="id" />
+        </label>
+        <br />
+        <label
+          >Python
+          <input type="checkbox" name="python" value="python" />
+        </label>
+        <br />
+        <label
+          >Java script
+          <input type="checkbox" name="js" value="js" />
+        </label>
+        <br />
+        <label
+          >React
+          <input type="checkbox" name="react" value="react" />
+        </label>
+        <br />
+        <label
+          >Angular
+          <input type="checkbox" name="ang" value="ang" />
+        </label>
+        <br />
+        <label
+          >Django
+          <input type="checkbox" name="dj" value="dj" />
+        </label>
+        <br />
+        <label
+          >Spring
+          <input type="checkbox" name="sp" value="sp" />
+        </label>
+      </div>
+      <div class="form-control">
+        <span>Any comments or suggetions</span>
+        <textarea
+          name="comments"
+          id="comments"
+          placeholder="Enter your comment here"
+        ></textarea>
+      </div>
+      <button type="submit">Submit</button>
+    </form>
+  </body>
+</html>

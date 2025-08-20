@@ -1,0 +1,9 @@
+.main_container {
+  background-color: antiquewhite;
+  text-align: center;
+  border: 5pxpx;
+  padding: 10px;
+}
+.main_container .content {
+  color: rgb(28, 94, 127);
+}

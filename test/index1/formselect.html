@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <h2>Ro'yxatdan o'tish Formasi</h2>
+
+    <form action="/submit" method="post">
+      <!-- Matnli input -->
+      <label for="ism">Ismingiz:</label><br />
+      <input type="text" id="ism" name="ism" required /><br /><br />
+
+      <!-- Email -->
+      <label for="email">Email manzil:</label><br />
+      <input type="email" id="email" name="email" required /><br /><br />
+
+      <!-- Parol -->
+      <label for="parol">Parolingiz:</label><br />
+      <input type="password" id="parol" name="parol" /><br /><br />
+
+      <!-- Radio tugmalar -->
+      <label>Jinsingiz:</label><br />
+      <input type="radio" id="erkak" name="jins" value="Erkak" />
+      <label for="erkak">Erkak</label><br />
+
+      <input type="radio" id="ayol" name="jins" value="Ayol" />
+      <label for="ayol">Ayol</label><br /><br />
+
+      <!-- Checkbox -->
+      <label>Qiziqishlaringiz:</label><br />
+      <input type="checkbox" id="sport" name="qiziqish" value="Sport" />
+      <label for="sport">Sport</label><br />
+
+      <input type="checkbox" id="music" name="qiziqish" value="Musiqa" />
+      <label for="music">Musiqa</label><br /><br />
+
+      <!-- Select (dropdown) -->
+      <label for="davlat">Davlatingiz:</label><br />
+      <select id="davlat" name="davlat">
+        <option value="uzb">O'zbekiston</option>
+        <option value="kor">Koreya</option>
+        <option value="tur">Turkiya</option></select
+      ><br /><br />
+
+      <!-- Textarea (ko‘p qatorli matn) -->
+      <label for="izoh">Qo'shimcha izoh:</label><br />
+      <textarea
+        id="izoh"
+        name="izoh"
+        rows="4"
+        cols="30"
+        placeholder="Bu yerga yozing..."
+      ></textarea
+      ><br /><br />
+
+      <!-- Submit tugmasi -->
+      <input type="submit" value="Yuborish" />
+
+      <!-- Reset tugmasi -->
+      <input type="reset" value="Tozalash" />
+      Gender:
+      <label
+        >Erkak
+        <input type="radio" name="gender" />
+      </label>
+      <label>
+        Ayol
+        <input type="radio" name="gender" />
+      </label>
+    </form>
+  </body>
+</html>
