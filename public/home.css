@@ -381,7 +381,7 @@
   flex-direction: column;
 }
 
-.container .category_top {
+.selling_product_frame .container .category_top {
   width: 100%;
   height: 40px;
 
@@ -391,7 +391,7 @@
   align-items: center;
 }
 
-.category_top span {
+.selling_product_frame .category_top span {
   color: rgba(4, 30, 66, 1);
 
   font-family: Jost;
@@ -402,7 +402,7 @@
   text-align: left;
 }
 
-.category_top a {
+.selling_product_frame .category_top a {
   color: rgba(4, 30, 66, 1);
 
   font-family: Jost;
@@ -413,11 +413,11 @@
   text-align: center;
 }
 
-.category_top a:hover {
+.selling_product_frame .category_top a:hover {
   border-bottom: 2px solid rgba(4, 30, 66, 1);
 }
 
-.container .producte_wrapper {
+.selling_product_frame .container .producte_wrapper {
   margin-top: 30px;
   position: relative;
 
@@ -429,16 +429,17 @@
   justify-content: space-between;
 }
 
-.producte_wrapper .next_prev_box {
+.selling_product_frame .producte_wrapper .next_prev_box {
   width: 25px;
 }
 
-.next_prev_box img {
+.selling_product_frame .next_prev_box img {
   position: absolute;
   top: 50%;
+  cursor: pointer;
 }
 
-.producte_wrapper .producte_boxes {
+.selling_product_frame .producte_wrapper .producte_boxes {
   position: relative;
   width: 1224px;
   height: 452px;
@@ -447,7 +448,7 @@
   flex-direction: row;
 }
 
-.producte_boxes .producte_box {
+.selling_product_frame .producte_boxes .producte_box {
   width: 306px;
   height: 100%;
 
@@ -455,12 +456,12 @@
   flex-direction: column;
 }
 
-.producte_box .producte_img_box {
+.selling_product_frame .producte_box .producte_img_box {
   width: 294px;
   height: 280px;
 }
 
-.producte_img_box .hover_box {
+.selling_product_frame .producte_img_box .hover_box {
   display: none;
   width: 100%;
   height: 100%;
@@ -470,7 +471,7 @@
   align-items: center;
 }
 
-.hover_box button {
+.selling_product_frame .hover_box button {
   margin-bottom: 10px;
   width: 260px;
   height: 50px;
@@ -497,17 +498,17 @@
   text-align: center;
 }
 
-.producte_img_box:hover .hover_box {
+.selling_product_frame .producte_img_box:hover .hover_box {
   display: flex;
 }
-.producte_box .producte_content_box {
+.selling_product_frame .producte_box .producte_content_box {
   padding: 5px 22px;
   width: 100%;
   height: auto;
   box-sizing: border-box;
 }
 
-.producte_content_box .product_title {
+.selling_product_frame .producte_content_box .product_title {
   color: rgba(98, 105, 116, 1);
 
   font-family: Jost;
@@ -519,7 +520,7 @@
   text-transform: uppercase;
 }
 
-.producte_content_box .product_desc {
+.selling_product_frame .producte_content_box .product_desc {
   margin-top: 7px;
   height: 56px;
   color: rgba(4, 30, 66, 1);
@@ -533,18 +534,18 @@
   text-align: left;
 }
 
-.producte_content_box .review_box {
+.selling_product_frame .producte_content_box .review_box {
   margin-top: 7px;
   display: flex;
   flex-direction: row;
   align-items: center;
 }
 
-.review_box img {
+.selling_product_frame .review_box img {
   margin-right: 5px;
 }
 
-.review_box span {
+.selling_product_frame .review_box span {
   margin-left: 10px;
   color: rgba(98, 105, 116, 1);
 
@@ -556,13 +557,13 @@
   text-align: left;
 }
 
-.producte_content_box .price_box {
+.selling_product_frame .producte_content_box .price_box {
   margin-top: 10px;
   display: flex;
   align-items: center;
 }
 
-.price_box strong {
+.selling_product_frame .price_box strong {
   color: rgba(4, 30, 66, 1);
 
   font-family: Jost;
@@ -573,7 +574,7 @@
   text-align: left;
 }
 
-.price_box span {
+.selling_product_frame .price_box span {
   margin-left: 10px;
   color: rgba(98, 105, 116, 1);
 
@@ -584,4 +585,27 @@
   letter-spacing: 0%;
   text-align: left;
   text-decoration-line: line-through;
+}
+
+.home_page .adv_frame {
+  margin-top: 90px;
+  width: 100%;
+  height: 120px;
+
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+
+  border-radius: 6px;
+  background: rgba(229, 237, 255, 1);
+
+  color: rgba(0, 83, 246, 1);
+
+  font-family: Jost;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 100%;
+  letter-spacing: 0%;
+  text-align: center;
 }
