@@ -656,13 +656,17 @@
 
 .spec_product_wrapper .small_product_wrapper {
   margin-left: 30px;
-  width: 620px;
+  width: 626px;
   height: 368px;
 
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
   flex-wrap: wrap;
   justify-content: space-between;
+}
+
+.small_product_wrapper:nth-child(-n + 2) {
+  margin-left: 40px;
 }
 
 .small_product_wrapper .small_product_box {
